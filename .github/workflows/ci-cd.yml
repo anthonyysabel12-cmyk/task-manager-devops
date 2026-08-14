@@ -23,7 +23,7 @@ jobs:
           cache: npm
 
       - name: Instalar dependencias
-  run: npm install
+        run: npm install
 
       - name: Analisis estatico con ESLint
         run: npx eslint src tests
